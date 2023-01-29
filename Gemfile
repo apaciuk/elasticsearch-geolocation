@@ -64,6 +64,12 @@ group :development do
   # gem "spring"
 end
 
+gem 'i18n', '~> 1.8.11'
+gem 'dotenv-rails'
+gem 'foursquare2'
+gem 'geocoder'
+gem 'chewy' # Elasticsearch
+gem 'elasticsearch'
 gem "cssbundling-rails"
 gem "devise", "~> 4.8", ">= 4.8.0"
 gem "friendly_id", "~> 5.4"
